@@ -1,6 +1,9 @@
 <template>
     <div>
-        <AppHeader></AppHeader>        
+        <AppHeader></AppHeader> 
+		<div class="ui container">
+			<router-view></router-view>       			
+		</div>
     </div>
 </template>
 
